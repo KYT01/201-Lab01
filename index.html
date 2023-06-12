@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            color: rgb(37, 40, 64);
+            background-color: rgb(188, 220, 234);
+            text-align: center;
+            margin-bottom: 50px;
+        }
+    </style>
+    <script>
+        
+        let user;
+        let myFavPet;
+        let lionsVsSun;
+        let fruitColour;
+        let animalVsSun;
+         
+
+        alert("Hi, Im Kumail, welcome to my site");
+
+        function userName() {
+            user = prompt("What is your name?");
+            alert("Welcome to my site " + user)
+            console.log(user)
+        }
+
+        userName();
+        
+        function myPet(){
+            pet = prompt ("What is your favorite animal?").toLowerCase();
+            console.log(pet);
+
+            if (pet === "cat") {
+                myFavPet = "Cat"
+            } else {
+                myFavPet = "Cat"
+            }
+
+            alert("Nice, " + pet + " are cool aniamls. My favorite animal is a cat");
+            
+        }
+
+        myPet();
+
+        function lions(){
+            answer = prompt ("What would win in a fight. A trillion lions or the sun?").toLowerCase();
+            console.log(answer);
+
+            if (answer === "a trillion lions") {
+                alert("Correct! A trillion lions would beat the sun");
+            } else if (answer === "trillion lions") {
+                alert("Correct! A trillion lions would beat the sun");
+            } else if (answer === "lions") {
+                alert("Correct! A trillion lions would beat the sun"); 
+            } else {
+                alert("Wrong. A trillion lions is too many for the sun");
+            }
+
+        }
+
+        lions();
+
+        function orangeColour() {
+            colour = prompt("What colour is an Orange?").toLowerCase();
+            console.log(colour);
+
+            if (colour === "orange") {
+                alert("Correct! An orange is indeed orange"); 
+            } else {
+                alert("Wrong! It is no other colour than orange itself");
+            }
+    
+        }
+
+        orangeColour();
+
+        function animalSun() {
+            animal = prompt("What do you think could beat the sun in a fight?").toLowerCase();
+            alert( "I dont think a trillion " + animal + " could beat the sun");
+            console.log(animal);
+
+        }
+
+        animalSun();
+        
+    </script>
+</head>
+<body>
+    <header></header>
+    <main>
+        <h1>
+            Class 1 Lab
+        </h1>
+    <p style="color: rgb(30, 47, 155); text-align: center; font-size: 23px; background-color: rgb(169, 224, 251);">
+        What is your favorite animal?
+    </p>
+    <p style="color: rgb(148, 31, 14); text-align: center; font-size: 23px; background-color: rgb(251, 174, 170);">
+        What would win in a fight? A trillion lions or the sun?
+    </p>
+
+    <p style="color: rgb(9, 172, 83); text-align: center; font-size: 23px; background-color: rgb(190, 255, 196);">
+        What colour is an orange?
+    </p>
+    <p style="color: rgb(215, 151, 0); text-align: center; font-size: 23px; background-color: rgb(255, 238, 163);">
+        What do you think could beat the sun in a fight?
+    </p>    
+    </main>
+    <footer></footer>
+    
+</body>
+</html>
